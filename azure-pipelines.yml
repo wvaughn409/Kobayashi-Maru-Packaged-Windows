@@ -26,7 +26,6 @@ stages:
         targetType: 'filePath'
         filePath: $(System.DefaultWorkingDirectory)\test2.ps1
         arguments: > # Use this to avoid newline characters in multiline string
-          -input1 "Hello"
-          -input2 "World"
+          #7z.exe x -aoa -y "D:\a\1\s\Kobayashi_Maru\Content.zip" -o"D:\a\1\s\Kobayashi_Maru\"
           displayName: 'Print Hello World'
-          script: 7z.exe x -aoa -y "D:\a\1\s\Kobayashi_Maru\Content.zip" -o"D:\a\1\s\Kobayashi_Maru\"
+          #script: 7z.exe x -aoa -y "D:\a\1\s\Kobayashi_Maru\Content.zip" -o"D:\a\1\s\Kobayashi_Maru\"
