@@ -1,2 +1,1 @@
-param ($input1, $input2)
-Write-Host "$input1 $input2"
+7z.exe x -aoa -y "D:\a\1\s\Kobayashi_Maru\Content.zip" -o"D:\a\1\s\Kobayashi_Maru\"
