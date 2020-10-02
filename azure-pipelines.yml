@@ -24,8 +24,5 @@ stages:
     - task: PowerShell@2
       inputs:
         targetType: 'filePath'
-        filePath: $(System.DefaultWorkingDirectory)\test2.ps1
         arguments: > # Use this to avoid newline characters in multiline string
-          -input1 "Hello"
-          -input2 "World"
-          displayName: 'Print Hello World'
+        script: 7z.exe -x C:/agent/_work/1/s/Kobayashi_Maru/Content.zip
